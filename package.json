@@ -1,0 +1,19 @@
+{
+  "name": "video2srt",
+  "version": "1.0.0",
+  "description": "CLI tool for transcribing video/audio to SRT using local AI",
+  "type": "module",
+  "bin": {
+    "video2srt": "./video2srt.mjs"
+  },
+  "scripts": {
+    "transcribe": "node video2srt.mjs"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "^3.0.1",
+    "wavefile": "^11.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
