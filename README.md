@@ -22,7 +22,6 @@ choco install ffmpeg
 ## Installation
 
 ```bash
-cd cli
 npm install
 ```
 
